@@ -1,0 +1,144 @@
+/* Navigation Bar */
+.nav-bar {
+  background-color: whitesmoke;
+  height: 90px; /* Adjust the height as needed */
+  width: 100%; /* Make the navigation bar span the entire width */
+  transition: height 0.5s ease; /* Smooth transition for height change */
+}
+
+.nav-bar img {
+  position: relative;
+  top: 25px;
+  left: 1%; 
+  height: 40px;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.nav-bar:hover {
+  height: 120px; 
+}
+
+.nav-bar:hover img {
+  transform: scale(1.2); 
+}
+
+h1 {
+  position: relative;
+  left: 63px;
+  bottom: -41px;
+  color: black;
+  transition: all 0.3s ease;
+  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.link {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.search-bar {
+  position: relative;
+  left: calc(50% - 215px); 
+  bottom: 110px;
+  width: 430px; 
+  transition: all 0.3s ease; 
+}
+
+.search-bar input {
+  border-radius: 21px;
+  background: white;
+  margin-top: 50px;
+  width: 100%;
+  height: 35px;
+  border: 0.5px black solid;
+  transition: all 0.3s ease;
+}
+
+.book-card {
+  width: 230px;
+  height: 340px;
+  margin: 60px 20px; 
+  border-radius: 10px;
+  border: 5px solid #000;
+  font-family: monospace;
+  background: #FFF;
+  transition: all 0.5s ease; 
+}
+
+.book-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+  transition: all 0.3s ease; 
+}
+
+.texts {
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+}
+
+.book-card h2 {
+  position: relative;
+  top: 15px;
+  font-size: 1rem;
+}
+
+#rating {
+  position: relative;
+  bottom: 10px;
+}
+
+.close {
+  position: absolute; 
+  top: 10px; 
+  right: 20px; 
+  font-size: 2.5rem;
+  z-index: 1001;
+  transition: all 0.3s ease; 
+}
+
+.close:hover {
+  transform: rotate(90deg); 
+}
+
+.register {
+  position: absolute; 
+  top: 30px; 
+  right: 20px; 
+  background-color: white; /* Added background color */
+  color: black; /* Changed text color to black */
+  padding: 10px 20px; /* Added padding for better appearance */
+  border: none;
+  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  transition: all 0.3s ease;
+  border-radius: 20px; 
+}
+
+.register:hover {
+  transform: scale(1.1); 
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.3s ease;
+}
