@@ -1,9 +1,9 @@
-/* Navigation Bar */
+
 .nav-bar {
   background-color: whitesmoke;
-  height: 90px; /* Adjust the height as needed */
-  width: 100%; /* Make the navigation bar span the entire width */
-  transition: height 0.5s ease; /* Smooth transition for height change */
+  height: 90px; 
+  width: 100%; 
+  transition: height 0.5s ease; 
 }
 
 .nav-bar img {
@@ -29,7 +29,7 @@ h1 {
   bottom: -41px;
   color: black;
   transition: all 0.3s ease;
-  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -120,11 +120,11 @@ h1 {
   position: absolute; 
   top: 30px; 
   right: 20px; 
-  background-color: white; /* Added background color */
-  color: black; /* Changed text color to black */
-  padding: 10px 20px; /* Added padding for better appearance */
+  background-color: white; 
+  color: black; 
+  padding: 10px 20px; 
   border: none;
-  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+  font-family: 'Roboto', sans-serif; 
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
